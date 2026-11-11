@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <!-- Linking external CSS stylesheet for page styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER SECTION: Contains the site title and navigation menu -->
+    <header>
+        <h1>My Personal Website</h1>
+        <!-- Semantic nav element for website links -->
+        <nav>
+            <ul>
+                <!-- Navigation links pointing to different sections on the page -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT AREA: Holds all the primary section blocks -->
+    <main>
+
+        <!-- 1. HOME SECTION -->
+        <!-- Used ID 'home' to link from the navigation bar -->
+        <section id="home" class="section-box">
+            <h2>Welcome to My Website</h2>
+            <!-- Profile Image placeholder -->
+            <img src="images/pic.png" alt="Profile Picture" width="150" height="150">
+            <p>Hello! My name is Mukras Ayunga. Welcome to my personal portfolio website built with HTML and CSS.</p>
+        </section>
+
+        <!-- 2. ABOUT ME SECTION -->
+        <section id="about" class="section-box">
+            <h2>About Me</h2>
+            <p>I am a university student currently pursuing coursework in computing and technology.</p>
+            
+            <h3>Educational Background</h3>
+            <p>I studied at Elimu Academy where i sat my KCPE examinations from. I then proceeded to Kisii High School.I am currently studying computer science units and learning core web development concepts.</p>
+            
+            <h3>Personal Interests</h3>
+            <!-- Unordered list requirement -->
+            <ul>
+                <li>Web design and coding</li>
+                <li>Solving computer problems</li>
+                <li>Learning new software skills</li>
+            </ul>
+        </section>
+
+        <!-- 3. SKILLS SECTION -->
+        <section id="skills" class="section-box">
+            <h2>Technical Skills</h2>
+            <p>Here is a list of five technical skills I have learned:</p>
+            <!-- Ordered list requirement -->
+            <ol>
+                <li>HTML structure</li>
+                <li>CSS styling</li>
+                <li>JavaScript fundamentals</li>
+                <li>Python programming</li>
+                <li>Git and GitHub version control</li>
+            </ol>
+
+            <h3>Skills Summary Table</h3>
+            <!-- Table requirement -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Git & GitHub</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. PROJECTS SECTION -->
+        <section id="projects" class="section-box">
+            <h2>My Projects</h2>
+            <div class="project-item">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A simple personal portfolio website created using HTML and CSS to display my profile and skills.</p>
+            </div>
+            <div class="project-item">
+                <h3>Project 2: Club Management System</h3>
+                <p>A school project concept designed for organizing student club membership records and activity details.</p>
+            </div>
+            <div class="project-item">
+                <h3>Project 3: HTML Form Practice</h3>
+                <p>A web page demonstration highlighting HTML form controls, inputs, buttons, and basic page layout.</p>
+            </div>
+        </section>
+
+        <!-- 5. CONTACT SECTION -->
+        <section id="contact" class="section-box">
+            <h2>Contact Me</h2>
+            <!-- Hyperlink requirement for email address -->
+            <p>You can send an email to: <a href="mailto:student@example.com">student@example.com</a></p>
+            
+            <!-- Contact form requirement -->
+            <form action="#" method="POST">
+                <div>
+                    <label for="username">Name:</label><br>
+                    <input type="text" id="username" name="username" placeholder="Mukras Ayunga" required>
+                </div>
+                <br>
+                <div>
+                    <label for="useremail">Email:</label><br>
+                    <input type="email" id="useremail" name="useremail" placeholder="ayungamukras@gmail.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="usermessage">Message:</label><br>
+                    <textarea id="usermessage" name="usermessage" rows="4" placeholder="Enter your message" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>Mukras. All Rights Reserved.2026</p>
+    </footer>
+
+</body>
+</html>

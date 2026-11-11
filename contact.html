@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT: CONTACT -->
+    <main>
+        <section class="section-box">
+            <h2>Contact Me</h2>
+            <!-- Hyperlink mailto requirement -->
+            <p>Email me directly at: <a href="mailto:ayungamukras@gmail.com">ayungamukras@gmail.com</a></p>
+            
+            <!-- Contact form requirement -->
+            <form action="#" method="POST">
+                <div>
+                    <label for="username">Your Name:</label><br>
+                    <input type="text" id="username" name="username" placeholder="Mukras Ayunga" required>
+                </div>
+                <br>
+                <div>
+                    <label for="useremail">Your Email:</label><br>
+                    <input type="email" id="useremail" name="useremail" placeholder="ayungamukras@gmail" required>
+                </div>
+                <br>
+                <div>
+                    <label for="usermessage">Message:</label><br>
+                    <textarea id="usermessage" name="usermessage" rows="4" placeholder="Type your message" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>copy; 2026 Mukras. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
